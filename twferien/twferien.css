@@ -1,15 +1,35 @@
-.ferien h1 {
-	color: hsl( 126, 50%, 40% );
+.ferien {
+	 overflow:auto;
 }
 
-.ferien h2 {
+.ferien h1, h2, h3, h4, h5, h6 {
 	color: hsl( 126, 50%, 40% );
+	padding: 0px;
+	margin: 0 0 0;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0.0;
 }
 
 .ferien table {
   border-collapse:collapse;
   border:none;
+  font-size: 0.4em;
+  max-width:100%;
+  overflow:hidden;
+}
 
+
+@media screen and (min-width: 768px) {
+	.ferien table {
+		font-size: 0.6em;
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	.ferien table {
+		font-size: 0.8em;
+	}
 }
 
 .ferien td {
