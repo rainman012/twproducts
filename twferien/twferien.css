@@ -1,0 +1,38 @@
+.ferien h1 {
+	color: hsl( 126, 50%, 40% );
+}
+
+.ferien h2 {
+	color: hsl( 126, 50%, 40% );
+}
+
+.ferien table {
+  border-collapse:collapse;
+  border:none;
+
+}
+
+.ferien td {
+  border:1px solid #4CAF50;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.ferien tr:nth-child(even) {background-color: #f2f2f2}
+
+.ferien th {
+    background-color: #4CAF50;
+    color: white;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.ferien th:first-child{
+  border-radius:10px 0 0 0;
+}
+
+.ferien th:last-child{
+  border-radius:0 10px 0 0;
+}
+
+.ferien tr:hover {background-color: #ccff66}
